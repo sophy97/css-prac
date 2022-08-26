@@ -1,0 +1,31 @@
+body {
+    background-image: url(/img/ㅣㅐㅐ.jpg);
+}
+
+h1 {
+    font-family:fantasy;
+}
+
+
+.square {
+    width: 200px; height: 100px;
+    background-color:blanchedalmond;
+    border:2px solid sandybrown;
+}
+ul {
+    list-style-type:circle;
+}
+a:hover {
+    color:black;
+    text-decoration: none;
+    font-style: italic;
+    text-shadow: 1px 1px 2px blue;
+    font-weight: bold;
+}
+
+
+span {
+    font-family:"궁서체";
+    text-decoration: underline wavy red 2px;
+    color:white;
+}

@@ -1,0 +1,60 @@
+h1 {color:rgb(0, 255, 0) ;}
+/* image는 파일주소 또는 인터넷주소를 통해 가져올 수 있다 */
+/* 대부분의 css속성은 대분류-소분류로 이름이 지정되어 있다.
+    대분류(background)로 접근해서 속성값을 할당하면,
+    관련 속성을 동시에 작성할 수 있다.
+*/
+body {
+    background-image: url(/img/루피.jpg);
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-attachment:scroll;
+    
+}
+/* div태그에 css작성 유의점 : 반드시 width height값 지정 */
+.mypicture {
+    width: 300px; height: 300px;
+    background-color:lightgreen;
+}
+
+p {text-align: center; 
+    text-decoration-line:underline;
+    text-decoration-color: yellowgreen;
+    text-decoration-style: dashed;
+    text: decoration thickness 3px;;
+}
+
+h2 {
+    text-decoration: overline red 1px solid;
+    text-shadow: 2px 2px 10px pink;
+    font-family: "HY견고딕";
+    font-size: 30px;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color:lightseagreen;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type:none;
+    
+}
+
+table {
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    height: 100px;
+}
+tr {
+    border: 2px dashed blue;
+}
+td {
+    border: 1px dotted red;
+    vertical-align: bottom;
+}
